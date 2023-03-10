@@ -1,3 +1,5 @@
+32 lines (25 sloc)  627 Bytes
+
 local include, nodecore
     = include, nodecore
 
@@ -10,7 +12,6 @@ minetest.register_node(modname .. ":algae_living", {
 			snappy = 1,
 			algae = 1
 		},
-		air_pass = true,
 		sounds = nodecore.sounds("nc_terrain_swishy")
 	})
 
@@ -23,10 +24,7 @@ minetest.register_node(modname .. ":algae_dry", {
 			fire_fuel = 3,
 			algae = 1
 		},
-		air_pass = true,
 		sounds = nodecore.sounds("nc_terrain_swishy")
 	})
-
-
 
 
