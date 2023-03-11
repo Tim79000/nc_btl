@@ -63,3 +63,6 @@ nodecore.register_mapgen_shared({
 		end
 	})
 
+
+
+
