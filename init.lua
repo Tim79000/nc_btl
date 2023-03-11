@@ -6,5 +6,5 @@ local modname = minetest.get_current_modname()
 
 include("granite")
 include("misc")
-include("algae/node")
-include("algae/gen")
+-- include("algae/node")
+-- include("algae/gen")
